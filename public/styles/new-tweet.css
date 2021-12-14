@@ -31,3 +31,48 @@
   width: 120%;
   justify-content: space-between;
 }
+
+.red {
+  color: red;
+}
+
+.article {
+  border: 5px solid black;
+  width: 35em;
+  height: 9.5em;
+  margin: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.article header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.4em 0.5em;
+}
+
+.article header span {
+  color: grey;
+}
+
+.article p {
+  border-bottom: 5px solid black;
+  margin: 20px;
+  background-color: aliceblue;
+}
+.article footer span {
+  font-size: 15px;
+  margin: 10px 10px;
+}
+
+.article footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  color: #4056a1;
+}

@@ -5,6 +5,7 @@
 }
 
 nav {
+  position: relative;
   height: 120px;
   background-color: #4056a1;
   color: white;
@@ -12,7 +13,11 @@ nav {
   padding: 0 1.5em;
   justify-content: space-between;
   align-items: flex-end;
-  z-index: 1;
+}
+.fa-solid {
+  display: flex;
+  justify-content: center;
+  color: red;
 }
 
 .newTweet {

@@ -25,6 +25,7 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
@@ -32,8 +33,7 @@
     <nav>
       <span class="title">tweeter</span>
       <div class="newTweet">
-      <span> <b>Write</b> a new tweet </span>
-      <i class="fa-solid fa-angles-down"></i>
+      <span id> <b>Write</b> a new tweet <i class="fa-solid fa-angles-down"></i></span>
     </div>
     </nav>
     <header class="header">
@@ -58,6 +58,24 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+       <section class="tweet-container">
+         <article class="article">
+          <header>
+          <i class="far fa-grin-squint"> Benjamin</i>
+          <span>@BenjieBlues</span>
+          </header>
+        
+        <p>This is a sample text tweet sentence</p>
+          <footer>
+            <span>5 days ago</span>
+            <div>
+            <i class="fas fa-flag"></i>
+            <i class="fas fa-retweet"></i>
+            <i class="fas fa-heart"></i>
+          </div>
+          </footer>
+         </article>
+       </section>
       </section>
 </main>
   </body>

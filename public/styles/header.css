@@ -7,10 +7,13 @@
 .name {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .header {
+  position: relative;
   height: 400px;
-  background-color: peachpuff;
+  background-color: lightcoral;
   background-image: url("../images/asfalt-light.png");
+  z-index: 1;
 }
