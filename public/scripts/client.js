@@ -45,6 +45,11 @@ $(document).ready(function () {
         data: serialiedData,
         success: function (data) {
           console.log("success!!", data);
+          $("#tweets-container").empty();
+          $("#tweet-form").each(function () {
+            this.reset();
+          });
+          loadTweets();
         },
       });
     }
@@ -63,6 +68,5 @@ $(document).ready(function () {
       renderTweets(data);
     });
   }
-
   loadTweets();
 });
