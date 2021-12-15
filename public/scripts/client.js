@@ -16,7 +16,7 @@ $(document).ready(function () {
           
           </header>
         
-        <p>${tweetObject.content.text}</p>
+        <p>${escape(tweetObject.content.text)}</p>
           <footer>
             <span>${timeago.format(tweetObject.created_at)}</span>
             <div>
@@ -62,6 +62,12 @@ $(document).ready(function () {
       $tweetsContainer.prepend($tweet);
     }
   }
+
+  const escape = function (str) {
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  };
 
   function loadTweets() {
     $.get("/tweets", function (data) {
