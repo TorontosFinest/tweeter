@@ -4,6 +4,10 @@
   align-content: stretch;
   justify-content: space-around;
 }
+
+.avatar img {
+  margin-top: 15px;
+}
 .name {
   display: flex;
   justify-content: center;

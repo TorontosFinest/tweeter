@@ -54,7 +54,7 @@
   padding: 0.4em 0.5em;
 }
 
-.tweet header span {
+.handle {
   color: grey;
 }
 
@@ -63,9 +63,21 @@
   margin: 20px;
   background-color: aliceblue;
 }
+
 .tweet footer span {
   font-size: 15px;
   margin: 10px 10px;
+}
+
+.tweet div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.username {
+  margin-left: 22px;
+  margin-bottom: 10px;
 }
 
 .tweet footer {
