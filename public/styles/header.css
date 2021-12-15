@@ -13,7 +13,7 @@
 .header {
   position: relative;
   height: 400px;
-  background-color: lightcoral;
-  background-image: url("../images/asfalt-light.png");
-  z-index: 1;
+  margin-top: 120px;
+  background-color: rgb(26, 31, 89);
+  background-image: url("../images/cubes.png");
 }
