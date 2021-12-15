@@ -54,7 +54,7 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form action="/tweets" method="post">
+        <form action="/tweets" method="post" id="tweet-form">
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div class="form-counter">
@@ -63,26 +63,6 @@
           </div>
         </form>
        <section id="tweets-container">
-         <article class="tweet">
-          <header>
-            <div>
-          <img src="/images/old.png">
-          <span class="username">Benji</span>
-          </div>
-          <span class="handle">@BenjieBlues<span>
-          
-          </header>
-        
-        <p>This is a sample text tweet sentence</p>
-          <footer>
-            <span>5 days ago</span>
-            <div>
-            <i class="fas fa-flag"></i>
-            <i class="fas fa-retweet"></i>
-            <i class="fas fa-heart"></i>
-          </div>
-          </footer>
-         </article>
        </section>
       </section>
 </main>
