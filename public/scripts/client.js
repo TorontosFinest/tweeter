@@ -4,6 +4,7 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 $(document).ready(function () {
+  $(".error").hide();
   function createTweetElement(tweetObject) {
     console.log(tweetObject);
     const $tweet = `<article class="tweet">
@@ -31,12 +32,17 @@ $(document).ready(function () {
   }
 
   $("#tweet-form").on("submit", function (event) {
+    event.preventDefault();
+
     if ($("#tweet-text").val().length > 140) {
-      alert("TOO MANY CHARACTERS!");
+      $(".error").slideDown("slow").text("Too many characters!");
     } else if (!$("#tweet-text").val()) {
-      alert("TWEET IS EMPTY!");
+      $(".error")
+        .slideDown("slow")
+        .text("Silly! You tried entering an empty tweet.");
     } else {
       event.preventDefault();
+      $(".error").slideUp("slow");
       console.log("the form was submitted!");
       const serialiedData = $(this).serialize();
       $.ajax({
