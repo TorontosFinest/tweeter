@@ -2,6 +2,16 @@
 
 Tweeter is a simple, single-page AJAX-based Twitter clone that uses jQuery, HTML5 and CSS.
 
+# Screenshots
+
+![IMG1](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG1.png?raw=true)
+
+![name-of-you-image](https://your-copied-image-address)
+
+![name-of-you-image](https://your-copied-image-address)
+
+![name-of-you-image](https://your-copied-image-address)
+
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
