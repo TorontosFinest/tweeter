@@ -4,13 +4,21 @@ Tweeter is a simple, single-page AJAX-based Twitter clone that uses jQuery, HTML
 
 # Screenshots
 
-![IMG1](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG1.png?raw=true)
+## Desktop View
 
-![name-of-you-image](https://your-copied-image-address)
+![Desktop View](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG1.png?raw=true)
 
-![name-of-you-image](https://your-copied-image-address)
+## Mobile / Tablet View
 
-![name-of-you-image](https://your-copied-image-address)
+![Mobile/Tablet View](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG2.png?raw=true)
+
+## Fluid Navigation
+
+![Fluid Nav](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG3.png?raw=true)
+
+## Validation
+
+![Validation](https://github.com/TorontosFinest/tweeter/blob/master/docs/IMG4.png?raw=true)
 
 ## Getting Started
 
