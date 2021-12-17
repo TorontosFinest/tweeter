@@ -32,3 +32,7 @@ Tweeter is a simple, single-page AJAX-based Twitter clone that uses jQuery, HTML
 
 - Express
 - Node 5.10.x or above
+- Timeago
+- Chance
+- Body-Parser
+- md5
