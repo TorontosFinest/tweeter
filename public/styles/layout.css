@@ -1,0 +1,59 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  color: #545149;
+  background-color: #f4f1ec;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-bottom: 30px;
+}
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+
+@media only screen and (min-width: 768px) {
+  .header {
+    width: 30%;
+    margin-right: 50px;
+  }
+
+  .main-container {
+    margin-top: 120px;
+    flex-direction: row;
+    padding: 50px 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    background-color: rgb(26, 31, 89);
+    background-image: url("../images/cubes.png");
+  }
+}
