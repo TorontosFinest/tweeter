@@ -40,6 +40,7 @@
       <span id> <b>Write</b> a new tweet <i class="fa-solid fa-angles-down"></i></span>
     </div>
     </nav>
+    <div class="main-container">
     <header class="header">
       <div class ="avatar">
         <img src="/images/profile-hex.png">
@@ -53,7 +54,6 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
         <h4 class="error"><i class="fa fa-exclamation-triangle"></i><span>Error!</span>!<i class="fa fa-exclamation-triangle"></i></h4>
         <form action="/tweets" method="post" id="tweet-form">
           <label for="tweet-text">What are you humming about?</label>
@@ -63,9 +63,10 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
-       <section id="tweets-container">
-       </section>
       </section>
+      <section id="tweets-container">
+      </section>
+    </div>
 </main>
   </body>
 </html>
